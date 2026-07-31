@@ -1,7 +1,30 @@
 aid: morph-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/morph-systems.png
 name: Morph Systems
-description: Morph Systems is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Morph Systems is a Palo Alto, California based artificial intelligence
+  consultancy that accelerates enterprise adoption of Palantir Foundry and AIP by
+  building LLM-powered operating systems on top of an organization''s data and ontology.
+  Founded by forward-deployed engineers who began by supporting military aviation
+  with an LLM-based kneeboard system that generates mission briefs from integrated
+  airport and flight data, the company now delivers AI-driven operating systems for
+  trading firms, LLM-powered supply-chain visibility for large-scale factory construction,
+  and patient-experience and operations solutions built on the Palantir platform.
+  Morph Systems is an early-stage, venture-backed team (backed by 500 Global, Seoul
+  National University, Mashup Ventures, Orange Planet Foundation, and the Tech Incubator
+  Program for Startup / TIPS) that operates as a services and solutions provider rather
+  than a public API platform; it does not currently publish a developer portal, API
+  reference, SDKs, or a public API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/morph-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Consulting
+- Palantir
+- Large Language Models
+- Data
+- Supply Chain
+- Aerospace and Defense
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/morph-systems-domain-security.yml
 - type: Website
   url: https://morphsys.ai
+- type: Blog
+  url: https://morphsys.substack.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
